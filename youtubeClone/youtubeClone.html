@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoutubeClone</title>
+    <link rel="icon"href="data:image/png;base64,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" type="image/x-icon"/>
+    <link rel="stylesheet" href="youtubeClone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="head-container">
+        <div class="left-section">
+        <div class="hamburger-menu-icon">
+            <input type="checkbox" id="sidebar-active" class="open-and-close-sidebar-button">
+            <label for="sidebar-active">
+                <img src="/youtube-clone-icon/hamburger-menu.svg" alt="hameburgerMenu" class="hamburger-menu">
+            </label>
+        </div>
+        <img src="/youtube-clone-icon/youtube-logo.svg" alt="youtube-icon" class="youtube-icon">
+    </div>
+    <div class="middle-section">
+        <input type="text" placeholder="Search" class="searchbar">
+        <button class="search-button" title="Search">
+            <img src="/youtube-clone-icon/search.svg" alt="search" class="search-icon"></button>
+        <button class="voice-search-button" title="Search with your voice">
+            <img src="/youtube-clone-icon/voice-search-icon.svg" alt="voice-search-icon" class="voice-search-image" >
+        </button>
+    </div>
+    <div class="right-section">
+        <button class="upload-button">
+        <img src="/youtube-clone-icon/upload.svg" alt="upload-button-image" class="upload-button-image">
+    </button>
+    <button class="notification">
+        <img src="/youtube-clone-icon/notifications.svg" alt="notifications" class="notifications-image">
+    </button>
+    <button class="profile">
+        <img src="/youtube-clone-icon/rexCatImage.jpg" alt="profile-picture" class="profile-picture">
+    </button>
+    </div>
+</div>
+
+<div class="sidebar">
+<div class="cointains-starting-side-buttons">
+    <div class="homebutton">
+        <img src="/youtube-clone-icon/youtube-home-button.png" alt="Home" class="youtube-home-button-icon"> 
+        <div class="home-button-text"><p>Home</p></div>
+    </div>
+    <div class="shorts">
+        <img src="/youtube-clone-icon/youtube-shorts-icon.png" alt="shorts" class="youtube-shorts-icon">
+        <div class="text-of-sidebar"><p>Shorts</p></div>
+    </div>
+    <div class="subscription">
+        <img src=" /youtube-clone-icon/youtube-subscription-icon.png" alt="subscribeButton" class="youtube-subscription-icon">
+        <div class="text-of-sidebar">Subscriptions</div>
+    </div>
+</div>
+    <div class="you">
+        <div class="your-channel">
+            <div class="text-you"> You <span> > </span>
+            </div>
+            <div class="your-channel-image-text">
+            <img src="/youtube-clone-icon/youtube-your-channel-icon.png" alt="yourchannel" class="your-channel-icon">
+            <p class="text-of-sidebar">Your channel</p>
+            </div>
+        </div>
+        <div class="history">
+            <img src="/youtube-clone-icon/youtube-history-icon.jpg" alt="history-iccon" class="history-icon">
+            <p class="text-of-sidebar">History</p>
+        </div>
+        <div class="playlist">
+            <img src="/youtube-clone-icon/youtube-playlist-icon.png" alt="playlist-icon" class="playlist-icon">
+            <p class="text-of-sidebar">Playlists</p>
+        </div>
+        <div class="your-videos">
+            <img src="/youtube-clone-icon/youtube-yourvideo-icon.png" alt="video-icon" class="your-video-icon">
+            <p class="text-of-sidebar">Your videos</p>
+        </div>
+        <div class="watch-later">
+            <img src="/youtube-clone-icon/youtube-watchlater-icon.png" alt="watch-later-icon" class="watch-later-icon">
+            <p class="text-of-sidebar">Watch Later</p>
+        </div>
+        <div class="liked-videos">
+            <img src="/youtube-clone-icon/youtube-likedvideo-icon.png" alt="liked-videos" class="liked-videos-icon">
+            <p class="text-of-sidebar">Liked videos</p>
+        </div>
+    </div>
+    <div class="subscription-include-youtuber">
+       <div  class="text-subscriptions"><p>Subscriptions</p></div>
+        <div class="youtubers-channel">
+            <div class="youtubers-channel01">
+                <img src="/youtube-clone-icon/mimi cat.jpg" class="youtubers-channel-dp01">
+                <p class="text-of-sidebar">Mimi Cat</p>
+            </div>
+            <div class="youtubers-channel02">
+                <img src="/youtube-clone-icon/rexCatImage.jpg" class="youtubers-channel-dp02">
+                <p class="text-of-sidebar">RexCat</p>
+            </div>
+        </div>
+
+        <div class="youtubers-channel">
+            <div class="youtubers-channel01">
+                <img src="/youtube-clone-icon/mimi cat.jpg" class="youtubers-channel-dp01">
+                <p class="text-of-sidebar">Mimi Cat</p>
+            </div>
+            <div class="youtubers-channel02">
+                <img src="/youtube-clone-icon/rexCatImage.jpg" class="youtubers-channel-dp02">
+                <p class="text-of-sidebar">RexCat</p>
+            </div>
+        </div>
+    </div>
+    <div class="explore-column">
+        <div class="text-explore"><p>Explore</p></div>
+        <div class="trending">
+            <img src="/youtube-clone-icon/youtube-trending-icon.png" alt="trending-icon" class="trending-icon"> 
+            <p class="text-of-sidebar">Trending</p>
+        </div>
+        <div class="shopping">
+            <img src="/youtube-clone-icon/youtube-shopingicon.jpg" alt="shopping-icon" class="shopping-icon">
+            <p class="text-of-sidebar">Shopping</p>
+        </div>
+        <div class="music">
+            <img src="/youtube-clone-icon/youtube-music-icon.png" alt="music-icon" class="music-icon">
+            <p class="text-of-sidebar">Music</p>
+        </div>
+        <div class="films">
+            <img src="/youtube-clone-icon/youtube-video-icon.png" alt="film-icon" class="film-icon">
+            <p class="text-of-sidebar">Films</p>
+        </div>
+        <div class="live">
+            <img src="/youtube-clone-icon/youtube-live-icon.png" alt="live-icon" class="live-icon">
+            <p class="text-of-sidebar">Live</p>
+        </div>
+        <div class="gaming">
+            <img src="/youtube-clone-icon/youtube-game-icon.png" alt="game-icon" class="game-icon">
+            <p class="text-of-sidebar">Gaming</p>
+        </div>
+        <div class="news">
+            <img src="/youtube-clone-icon/youtube-news-icon.png" alt="news-icon" class="news-icon">
+            <p class="text-of-sidebar">News</p>
+        </div>
+        <div class="sport">
+            <img src="/youtube-clone-icon/youtube-sports-icon.png" alt="sport-icon" class="sport-icon">
+            <p class="text-of-sidebar">Sport</p>
+        </div>
+        <div class="courses">
+            <img src="/youtube-clone-icon/youtube-course-icon.png" alt="course-icon" class="course-icon">
+            <p class="text-of-sidebar">Courses</p>
+        </div>
+        <div class="fashion-and-beauty">
+            <img src="/youtube-clone-icon/youtube-fashion-and-beauty-icon.png" alt="fashion&beauty" class="fashion-and-beauty-icon">
+            <p class="text-of-sidebar">Fashion & beauty</p>
+        </div>
+        <div class="podcast">
+            <img src="/youtube-clone-icon/youtube-podcast-icon.png" alt="podcast-icon" class="podcast-icon">
+            <p class="text-of-sidebar">Podcasts</p>
+        </div>
+    <div class="contains-four-item">
+        <div class="setting">
+            <img src="/youtube-clone-icon/youtube-setting-icon.png" alt="setting-icon" class="setting-icon">
+           <p class="text-of-sidebar">Settings</p> 
+        </div>
+        <div class="report-history">
+            <img src="/youtube-clone-icon/youtube-flag-icon.png" alt="report-history" class="report-history-icon">
+            <p class="text-of-sidebar">Report history</p>
+        </div>
+        <div class="help">
+            <img src="/youtube-clone-icon/youtube-help-icon.png" alt="help-icon" class="help-icon">
+            <p class="text-of-sidebar">Help</p>
+        </div>
+        <div class="send-feedback">
+            <img src="/youtube-clone-icon/youtube-feedback-icon.png" alt="feedback-icon" class="send-feedback-icon">
+            <p class="text-of-sidebar">Send feedback</p>
+        </div>
+    </div>
+</div>
+</div>
+</label>
+
+
+<div class="middle-container">
+    <div class="thumbnail" id="thumbnail1">
+    <div class="video-with-time">
+    <img src="/youtube-clone-icon/thumbnail1.webp" alt="thumbnail1" class="thumbnail01"> 
+    <div class="/youtube-clone-icon/ video-time">23:30</div>
+    </div>
+    <div id="contentInOneLine">
+    <div>
+    <img src="/youtube-clone-icon/mimi cat.jpg" alt="profile-picture" class="video-profile">
+    </div>
+    <div class="textofthumb">
+    <p class="video-text-main">Up police re-exam</p>
+    <p class="video-text">Unkown</p>
+    <p class="video-text">11M views 2 years ago</p>
+</div>
+</div>
+</div>
+    <div class="thumbnail" id="thumbnail2">
+    <div class="video-with-time">
+    <img src="/youtube-clone-icon/thumbnail2.webp" alt="thumbnail2" class="thumbnail02">
+    <div class="video-time">12:29</div>
+    </div>
+    <div id="contentInOneLine">
+    <img src="/youtube-clone-icon/mimi cat.jpg" alt="profile-picture" class="video-profile">
+    <div class="textofthumb">
+    <p class="video-text-main">Birthday Special</p>
+    <p class="video-text">Unkown</p>
+    <p class="video-text">11M views 2 years ago</p>
+</div>
+</div>
+    </div>
+    <div class="thumbnail" id="thumbnail3">
+    <div class="video-with-time">
+    <img src="/youtube-clone-icon/thumbnail3.webp" alt="thumbnail3" class="thumbnail03">
+    <div class="video-time">53:30</div>
+    </div>
+    <div id="contentInOneLine">
+    <img src="/youtube-clone-icon/mimi cat.jpg" alt="profile-picture" class="video-profile">
+    <div class="textofthumb">
+    <p class="video-text-main">Jukebox</p>
+    <p class="video-text">Unkown</p>
+    <p class="video-text">11M views 2 years ago</p>
+</div>
+</div>
+    </div>
+  
+    
+
+
+    <div class="thumbnail" id="thumbnail2">
+    <div class="video-with-time">
+        <img src="/youtube-clone-icon/thumbnail1.webp" alt="thumbnail1" class="thumbnail01">
+        <div class="video-time">23:30</div> 
+        </div>
+        <div id="contentInOneLine">
+        <div>
+        <img src="/youtube-clone-icon/mimi cat.jpg" alt="profile-picture" class="video-profile">
+        </div>
+        <div class="textofthumb">
+        <p class="video-text-main">Up police re-exam</p>
+        <p class="video-text">Unkown</p>
+        <p class="video-text">11M views 2 years ago</p>
+    </div>
+    </div>
+    </div>
+        <div class="thumbnail" id="thumbnail2">
+        <div class="video-with-time">
+        <img src="/youtube-clone-icon/thumbnail2.webp" alt="thumbnail2" class="thumbnail02">
+        <div class="video-time">12:29</div>
+        </div>
+        <div id="contentInOneLine">
+        <img src="/youtube-clone-icon/mimi cat.jpg" alt="profile-picture" class="video-profile">
+        <div class="textofthumb">
+        <p class="video-text-main">Birthday Special</p>
+        <p class="video-text">Unkown</p>
+        <p class="video-text">11M views 2 years ago</p>
+    </div>
+    </div>
+        </div>
+        <div class="thumbnail" id="thumbnail3">
+        <div class="video-with-time">
+        <img src="/youtube-clone-icon/thumbnail3.webp" alt="thumbnail3" class="thumbnail03">
+        <div class="video-time">53:30</div>
+       </div>
+        <div id="contentInOneLine">
+        <img src="/youtube-clone-icon/mimi cat.jpg" alt="profile-picture" class="video-profile">
+        <div class="textofthumb">
+        <p class="video-text-main">Jukebox</p>
+        <p class="video-text">Unkown</p>
+        <p class="video-text">11M views 2 years ago</p>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
