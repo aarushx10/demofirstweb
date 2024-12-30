@@ -1,0 +1,58 @@
+.cats{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}
+.catContainer{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 15px;
+}
+.catName{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.mutualFriends{
+    color: rgb(100, 100, 100);
+    padding-left: 10px;
+}
+.addFriends{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-bottom: 10px;
+  }
+  .catImage{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    vertical-align: top;
+    margin-right: 15px;
+  }
+
+    .wrappingDiv{
+        margin-top: 10px;
+        margin-bottom: 50px;
+        width: 450px;
+        border-radius: 6px;
+        box-shadow: 0 0 6px black;
+    }
+    #cat-wrapping{
+        height: 50px;
+        width: 50px;
+        padding:12px;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+    button{
+        cursor: pointer;
+    }
